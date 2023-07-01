@@ -1,3 +1,15 @@
 .title{
-   margin:1rem;
+   text-align: left;
+   padding: 3 rem;
+   border:3 rem;
+}
+.container{
+   display: flex;
+   flex-direction: row;
+   padding: 1rem;
+   align-content: baseline;
+  
+}
+.search-bar{
+   align-self: center;
 }
