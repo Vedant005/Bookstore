@@ -1,0 +1,7 @@
+.hero-container{
+    background: url(/src/images/glassware.jpg);
+    display: flex;
+    background-size: cover;
+    height:30rem;
+  
+}
