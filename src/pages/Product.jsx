@@ -2,7 +2,7 @@ import React from "react";
 import { Header } from "../components/Header.jsx";
 import { Footer } from "../components/Footer.jsx";
 import "./Product.css"
-import 
+import naturabowl from "../images/naturabowl.jpg"
 
 
 
@@ -121,13 +121,26 @@ export default function Product(){
 
             <h1>Products</h1>
 
-            </div>
-               <div>
-                <div>
-                    <image class="natura-bowl" src=
+             <div>
+                    <img class="natura-bowl" src={naturabowl} alt="natura-bowl"/>
                 </div>
-               </div>
+               
+            <div>
+                <h2>NATURA BOWLS</h2>
+                <p>
+                    Rs.1800 ||
 
+                    <span class="stirke-through"> Rs.2000 ||</span>
+                    <span>10% OFF</span>
+                </p>
+           
+            <div>
+                <button class="primary-btn">
+                    ADD TO CART
+                </button>
+            </div>
+            </div>
+               </div>
             </div>
               {/* <Footer/> */}
         </div>
