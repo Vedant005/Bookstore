@@ -1,15 +1,22 @@
+
+
 .title{
    text-align: left;
    padding: 3 rem;
    border:3 rem;
 }
 .container{
-   display: flex;
-   flex-direction: row;
+   display:flex;
+   background-color: rgb(150, 229, 150);
    padding: 1rem;
-   align-content: baseline;
-  
+   /* align-content: baseline; */
+  position:static;
 }
 .search-bar{
    align-self: center;
+}
+nav{
+   display: flex;
+   height:10vh;
+   align-items: center;
 }

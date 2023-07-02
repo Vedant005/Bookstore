@@ -1,4 +1,5 @@
 import React from "react";
+
 import { Header } from "../components/Header.jsx";
 import { Footer } from "../components/Footer.jsx";
 import  bowl from "../images/bowl.jpg";
@@ -25,9 +26,9 @@ export default function Home() {
     </div>
     
     </div>
-
+    <h1>Featured Categories</h1>
     <div class="category-container">
-          <h1>Featured Categories</h1>
+         
 
           <div>
             <img class="category-image" src={bowl}alt="bowl-image"/>

@@ -1,6 +1,7 @@
 // import logo from './logo.svg';
 import './App.css';
 import Home from "./pages/Home.jsx";
+import Product from "./pages/Product.jsx";
 import { Routes, Route } from "react-router-dom";
 // import { NavLink } from "react-router-dom";
 
@@ -22,6 +23,7 @@ function App() {
         </a> */}
         <Routes>
          <Route path="/" element={<Home />} />
+         <Route path="/product" element={<Product />} />
       </Routes>
 
     </div>

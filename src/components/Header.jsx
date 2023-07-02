@@ -1,27 +1,30 @@
 import "./header.css"
-import { NavLink } from "react-router-dom";
+import { NavLink, Route } from "react-router-dom";
+// import {Product} from "./pages/Product.jsx";
 
 const getStyle=({isActive})=>({
     color: isActive ? "red" : "",
-    border: isActive ? "1 rem" : "0.5rem",
-    padding: isActive ? "3 rem" : "2rem",
-    margin: "1rem",
- textDecoration : "none"
+    border: "1 rem",
+    padding: "0.5 rem",
+    margin: "6rem",
+ textDecoration : "none",
+  texAlign:"center"
 })
 
 export function Header() {
     return (
         <header>
           <div class="container">
-              <span class="title">  magnet store</span>
+              <h2 class="title">  magnet store</h2>
             <nav>
         <NavLink style={getStyle} to="/">
           Home
         </NavLink>
         
-        <NavLink style={getStyle} to="/products">
-          Products
+        <NavLink style={getStyle} to="/product">
+         Product
         </NavLink>
+
         </nav>
     
       <label class="search-bar">
@@ -37,9 +40,7 @@ export function Header() {
           Cart
         </NavLink>
      </nav>
-     
-     
-     
+    
      
       </div>
       </header>

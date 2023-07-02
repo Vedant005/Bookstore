@@ -1,0 +1,22 @@
+.product-main-container{
+    display: flex;
+}
+
+
+
+.filter-container{
+    flex: 0 0 auto;
+}
+
+.product-container{
+    flex: 1;
+}
+
+.categories{
+    display: grid;
+    
+}
+
+.ratings{
+  display:flex;
+}

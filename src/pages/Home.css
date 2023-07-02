@@ -15,20 +15,25 @@
 .category-image{
     width: 300px;
     height: 200px;
-    padding:15px;
+    padding:2rem;
     cursor: pointer;
 }
 .featured-brands{
-    display:grid;
+    display:flex;
     grid-area:10px;
-    flex-direction:row
+    
+
 }
 .brand-image{
-    padding:4rem;
+    padding:3.4rem;
 }
 .info{
     position: absolute;
   bottom:0;
   right: 0;
   background-color: aqua;
+}
+
+.category-container{
+    display: flex;
 }
