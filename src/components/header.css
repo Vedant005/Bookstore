@@ -7,10 +7,10 @@
 }
 .container{
    display:flex;
-   background-color: rgb(150, 229, 150);
-   padding: 1rem;
-   /* align-content: baseline; */
-  position:static;
+   background-color: rgb(220, 227, 220);
+   
+  /* align-content: baseline; */
+  position:fixed;
 }
 .search-bar{
    align-self: center;
